@@ -1,16 +1,20 @@
-<html>
+<html lang="en">
 	<head>
 	   <title>gmodloading</title>
-		 <script type="text/javascript" src="js/thirdparty/jquery.js"></script>
+		 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+		 <style>
+		 		body { background-color: pink; }
+		 </style>
 	</head>
 <body>
 	<!-- <img src='whale.jpg' height="100%" width="100%"/> -->
-	<h1 id="elem" style="color:white"></h1>
+	<div id='#spambox'></div>
 	<script type="text/javascript">
 		function GameDetails( servername, serverurl, mapname, maxplayers, steamid, gamemode, volume, lang)
 		{
-			document.getElementById.innerHTML = steamid;
+			$("#spambox").append("SteamID: " + steamid + "<br>");
 		}
 	</script>
 </body>
 </html>
+
