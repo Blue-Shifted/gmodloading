@@ -8,8 +8,10 @@
 	</head>
 <body>
 	<!-- <img src='whale.jpg' height="100%" width="100%"/> -->
-	<div id='#spambox'></div>
+	<div id='spambox'></div>
 	<script type="text/javascript">
+		$("#spambox").append("foo");
+		document.getElementById("spambox").innerHTML = "bar<br>";
 		function GameDetails( servername, serverurl, mapname, maxplayers, steamid, gamemode, volume, lang)
 		{
 			$("#spambox").append("foobar" + "<br>");
